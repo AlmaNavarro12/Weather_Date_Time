@@ -23,7 +23,6 @@ class Weather {
   Future<WeatherModel>? getWeather(String? location) async {
     var endpoint = Uri.parse(
         'https://api.openweathermap.org/data/2.5/weather?q=$location&appid=ab94c47060041d6263793bd5851e80c5&units=metric%27');
-
     var respone = await http.get(endpoint);
     var body = jsonDecode(respone.body);
     return WeatherModel.fromjson(body);

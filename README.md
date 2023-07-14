@@ -1,10 +1,10 @@
-# contadorwear
+# WeatherDateTimePonyo
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Aplicación que muestra hora en formato 24h, así como la fecha. Muestra el clima del estado de Querétaro, Mex con el uso de una API de clima que ofrece Open Weather. Diseño completamente inspirado en la película animada del Studio Ghibli - Ponyo.
 
 A few resources to get you started if this is your first Flutter project:
 
